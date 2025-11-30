@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: url-trigger
+    env: docker
+    plan: free
+    autoDeploy: true
